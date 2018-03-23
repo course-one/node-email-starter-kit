@@ -1,0 +1,22 @@
+{
+    "name": "html-email",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "gulp build",
+        "watch": "gulp watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.23.6",
+        "gulp": "^3.9.1",
+        "gulp-dest": "^0.2.3",
+        "gulp-inline-css": "^3.2.0",
+        "gulp-pug": "^3.3.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0"
+    }
+}

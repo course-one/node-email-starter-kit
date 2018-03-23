@@ -1,0 +1,45 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+p, span, b, em, abbr, div, h1, h2, h3, h4, h5, a {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p, span, b, em, abbr, div {
+    font-size: 12px;
+    color: #222;
+}
+
+a {
+    color: rgb(71, 83, 190) !important;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: sub;
+}
+
+table {
+    margin: 0; 
+    padding: 0;
+    empty-cells: hide;
+
+    &.table {
+        width: 600px;
+        margin: 0 auto;
+        background-color: #eee;
+    }
+
+    td {
+        margin: 0 auto;
+    }
+}

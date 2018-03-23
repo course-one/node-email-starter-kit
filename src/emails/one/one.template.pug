@@ -1,0 +1,27 @@
+doctype html
+html
+    head
+        title One | Email template!
+
+        //- import css/scss stylesheets
+        //- these file names will be replace by gulp with proper css file paths
+        link(rel="stylesheet", href="../../sass/basic.scss")
+        link(rel="stylesheet", href="../../sass/one/styles.scss")
+
+        //- embdedded css allowed, but not sass
+        style.
+            .red{
+                background-color: #E84C50;
+            }
+            .full-width{
+                width: 100%;
+            }
+    body
+        table.table(cellpadding="0", cellspacing="0")
+            tr
+                td.red
+                    h3(style="color: white;") Gulp &amp; Pug is awesome 
+            tr
+                td
+                    a(href="/")
+                        img.full-width(src="https://media.giphy.com/media/6o9Q2WehOHWI1QGO08/giphy.gif")
